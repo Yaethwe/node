@@ -1,0 +1,29 @@
+{
+  "name": "nodeplayground",
+  "version": "1.0.0",
+  "description": "node playground",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaethwe/node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yaethwe/node/issues"
+  },
+  "homepage": "https://github.com/Yaethwe/node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "ip": "^1.1.8"
+  }
+}
